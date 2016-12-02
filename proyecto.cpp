@@ -65,7 +65,8 @@ int total[100];
 
 int menu(),opcion,tequilas(),whisky(),cognac(),vodka(),mezcal(),ron(),ginebra(),brandy();
 int jerez(),champagne(),licor(),vino(),salir(),regresar(),k=0,tipo,tipo1;
-int x,unidad;
+int x,unidad,counter=0;
+int suma();
 
 //prueba
 char resp1;
@@ -125,6 +126,9 @@ main(){
                 vino();
                 break;
              case 13:
+                suma();
+             break;
+             case 14:
                 salir();
              break;
 {
@@ -154,7 +158,7 @@ int menu(){
 //Funcion tequilas()
 //Menu de Tequila disponible
 //Falta modificar precio
-
+//Referencia de los menus
 int tequilas(){
     system("cls");
           gotoxy(30,2); printf("TEQUILAS");
@@ -234,6 +238,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 2:
 
@@ -294,7 +299,7 @@ else
                     getchar();
                     getchar();
                 }
-
+                counter++;
                 break;
                 case 3:
                 gotoxy(20,2); printf("TEQUILA CAPOTE SABOR ZARZAMORA 750ML");
@@ -352,6 +357,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 4:
                 gotoxy(20,2); printf("TEQUILA CLASICO BLANCO 750ML");
@@ -409,6 +415,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 5:
                 printf("TEQUILA HERRADURA DIRECTO DEL ALAMBIQUE 750ML");
@@ -467,6 +474,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 6:
                 k=2;
@@ -546,6 +554,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 2:
                 gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
@@ -605,6 +614,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 3:
                 gotoxy(20,2); printf("TEQUILA 1800 REPOSADO 700ML");
@@ -664,6 +674,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 4:
                 gotoxy(20,2); printf("TEQUILA CABRITO REPOSADO 375ML");
@@ -723,6 +734,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 5:
                 gotoxy(20,2); printf("TEQUILA CENTENARIO REPOSADO 700ML");
@@ -782,6 +794,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 6:
                 k=2;
@@ -859,6 +872,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 2:
                 gotoxy(20,2); printf("TEQUILA 1800 RESERVA ANTIGUA(AÑEJO) 700ML");
@@ -918,6 +932,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 3:
                 gotoxy(20,2); printf("TEQUILA 30-30 AÑEJO 750ML");
@@ -974,6 +989,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 4:
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS AÑEJO 750ML");
@@ -1033,6 +1049,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 5:
                 gotoxy(20,2); printf("TEQUILA CAZADORES AÑEJO 750ML");
@@ -1090,6 +1107,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 6:
                 regresar();
@@ -1168,6 +1186,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 2:
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS EXTRA AÑEJO SIMGLE BARREL 750ML");
@@ -1227,6 +1246,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 3:
                 gotoxy(20,2); printf("TEQUILA CUERVO RESERVA DE LA FAMILIA 2.5LT");
@@ -1284,6 +1304,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 4:
                 gotoxy(20,2); printf("TEQUILA ALACRAN EXTRA AÑEJO 750ML");
@@ -1341,6 +1362,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 5:
                 gotoxy(20,2); printf("TEQUILA 1800 COLECCION BOSCO SODI 750ML");
@@ -1398,6 +1420,7 @@ else
                     getchar();
                     getchar();
                 }
+                counter++;
               break;
               case 6:
                 regresar();
@@ -1488,6 +1511,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 2:
                 gotoxy(20,2); printf("WHISKY ARDMORE 750ML");
@@ -1546,6 +1570,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               break;
               case 3:
@@ -1605,6 +1630,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 4:
                 gotoxy(20,2); printf("WHISKY BALVENIE 12 AÑOS 750ML");
@@ -1663,6 +1689,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 5:
                 gotoxy(20,2); printf("WHISKY BALVENIE 17 DOUBLEWOOD 750ML");
@@ -1721,6 +1748,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 6:
                 regresar();
@@ -1799,6 +1827,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 2:
                 gotoxy(20,2); printf("WHISKY BALLENTINES 12 AÑOS 750ML");
@@ -1857,6 +1886,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 3:
                 gotoxy(20,2); printf("WHISKY BALLENTINES 21 AÑOS 700ML");
@@ -1915,6 +1945,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 4:
                 gotoxy(20,2); printf("WHISKY BALLENTINES 30 AÑOS 700ML");
@@ -1973,6 +2004,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 5:
                 gotoxy(20,2); printf("WHISKY WALKER ODYSSEY 750ML");
@@ -2031,6 +2063,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 6:
                 regresar();
@@ -2109,6 +2142,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 2:
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 1LT");
@@ -2167,6 +2201,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 3:
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 750ML");
@@ -2225,6 +2260,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 4:
                 gotoxy(20,2); printf("WHISKY JIM BEAM NEGRO 8 AÑOS 750ML");
@@ -2283,6 +2319,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 5:
                 gotoxy(20,2); printf("WHISKY WID TURKEY 700ML");
@@ -2341,6 +2378,7 @@ int whisky(){
                     getchar();
                     getchar();
                 }
+                counter++;
                 break;
               case 6:
                 regresar();
@@ -4603,6 +4641,7 @@ int jerez(){
                 system("cls");
                 gotoxy(20,2); printf("JEREZ DRY SACK MEDIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 219.00");
+                int precio = 219;
                 gotoxy(60,3);printf("  Stock: %d",stockLXX);
                 gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
                     }
@@ -6441,6 +6480,20 @@ int vino(){
 }
 }
 
+
+int suma(){
+	    system("cls");
+          //if have option to extract the info
+	int vectsum[100];
+	for(int n = 0; n < counter; i++){
+    vectsum[n]= vectsum[x];
+    
+	return vectsum[n];    
+	}
+         gotoxy(20,9); printf("suma?: %d "  vectsum[n]);
+
+          system("cls");
+}
 
 int salir(){
      k=4;
