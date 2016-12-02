@@ -6486,11 +6486,11 @@ int suma(){
           //if have option to extract the info
 	int vectsum[100];
 	for(int n = 0; n < counter; i++){
-    vectsum[n]= vectsum[x];
+           suma=suma+vector[n];
     
 	return vectsum[n];    
 	}
-         gotoxy(20,9); printf("suma?: %d "  vectsum[n]);
+         gotoxy(20,9); printf("suma?: [%d] "  suma);
 
           system("cls");
 }
