@@ -6484,7 +6484,7 @@ int vino(){
 int suma(){
 	    system("cls");
           //if have option to extract the info
-	int vectsum[100];
+	int vectsum[counter];
 	for(int n = 0; n < counter; i++){
            suma=suma+vector[n];
     
