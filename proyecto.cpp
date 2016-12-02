@@ -129,7 +129,7 @@ main(){
              break;
 {
              default:
-                printf("La opcion seleccionada no es valida.");
+                printf("La opcion seleccionada no es valida. ");
                 getchar();
                 getchar();
 }
@@ -146,8 +146,8 @@ main(){
 int menu(){
 
        printf("VINOS Y LICORES");
-       printf("\t\n1.- Tequilas\n2.- Whisky\n3.- Cognac\n4.- Vodka\n5.- Mezcal");
-       printf("\n6.- Ron\n7.- Ginebra\n8.- Brandy\n9.- Jerez\n10.- Champagne\n11.- Licor\n12.- Vino\n13.- Pagar\n14.- Salir");
+       printf("\t\n1.- Tequilas\n2.- Whisky\n3.- Cognac\n4.- Vodka \n5.- Mezcal ");
+       printf("\n6.- Ron\n7.- Ginebra\n8.- Brandy\n9.- Jerez\n10.- Champagne\n11.- Licor\n12.- Vino\n13.- Pagar\n14.- Salir \nSeleccione una opcion: ");
        scanf("%d",&opcion);
 }
 
@@ -6404,10 +6404,10 @@ int vino(){
 
                 stockXCIX=stockXCIX-stockXCIX;
                 system("cls");
-                gotoxy(20,2); printf("CANALS NUBIONA 750ML");
-                gotoxy(60,2); printf("  Precio: 127.00");
-                gotoxy(60,3);printf("  Stock: %d",stockXCIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(20,2); printf("CANALS NUBIONA 750ML ");
+                gotoxy(60,2); printf("  Precio: 127.00 ");
+                gotoxy(60,3);printf("  Stock: %d ",stockXCIX);
+                gotoxy(10,7);printf("Añadio a su cuenta: $%d ",x);
                     }
                    else
 
@@ -6461,7 +6461,7 @@ int stock1(){
 
        if(stock <= 0){
           printf("\nEl producto esta agotado");
-          printf("\n¿Desea surtir el producto?  Si=s No=n");
+          printf(" \n¿Desea surtir el producto?  Si=s No=n");
           surtirp = getch();
         if( surtirp == 's' || surtirp == 'S'){
             printf("\n¿Cuantas unidades desea surtir?\n");
@@ -8817,8 +8817,8 @@ int stock100(){
 
 
        if(stockXCIX <= 0){
-          printf("\nEl producto esta agotado");
-          printf("\n¿Desea surtir el producto?  Si=s No=n");
+          printf("\nEl producto esta agotado ");
+          printf("\n¿Desea surtir el producto?  Si=s No=n ");
           surtirp = getch();
         if( surtirp == 's' || surtirp == 'S'){
             printf("\n¿Cuantas unidades desea surtir?\n");
@@ -8834,4 +8834,3 @@ int stock100(){
             }
 }
 }
-
