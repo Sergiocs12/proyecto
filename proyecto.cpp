@@ -216,7 +216,7 @@ int tequilas(){
                 gotoxy(60,3); printf("  Stock: %d",stock);
                 gotoxy(20,2); printf("TEQUILA ALACRAN AUTENTICO 750ML");
                 gotoxy(60,2); printf("  Precio: 282.00");
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -231,7 +231,7 @@ else
                 gotoxy(20,2); printf("TEQUILA ALACRAN AUTENTICO 750ML");
                 gotoxy(60,2); printf("  Precio: 282.00");
                 gotoxy(60,3);printf("  Stock: %d",stock);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d",164 ,x);
                 }
                 suma=suma+x;
                 {
@@ -277,7 +277,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockI);
                 gotoxy(20,2); printf("TEQUILA CAPOTE SABOR FRAMBUESA GRANADA 750ML");
                 gotoxy(60,2); printf("  Precio: 427.00");
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -292,7 +292,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAPOTE SABOR FRAMBUESA GRANADA 750ML");
                 gotoxy(60,3); printf("  Precio: 427.00");
                 gotoxy(60,4); printf("  Stock: %d",stockI);
-                gotoxy(10,8); printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,8); printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -336,7 +336,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAPOTE SABOR ZARZAMORA 750ML");
                 gotoxy(60,3); printf("  Precio: 427.00");
                 gotoxy(60,4); printf("  Stock: %d",stockII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -351,7 +351,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAPOTE SABOR ZARZAMORA 750ML");
                 gotoxy(60,3); printf("  Precio: 427.00");
                 gotoxy(60,4); printf("  Stock: %d",stockII);
-                gotoxy(10,8); printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,8); printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -394,7 +394,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CLASICO BLANCO 750ML");
                 gotoxy(60,3); printf("  Precio: 196.00");
                 gotoxy(60,4); printf("  Stock: %d",stockIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -409,7 +409,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CLASICO BLANCO 750ML");
                 gotoxy(60,3); printf("  Precio: 196.00");
                 gotoxy(60,4); printf("  Stock: %d",stockIII);
-                gotoxy(10,8); printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,8); printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -453,7 +453,7 @@ else
                 gotoxy(20,2); printf("TEQUILA HERRADURA DIRECTO DEL ALAMBIQUE 750ML");
                 gotoxy(60,3); printf("  Precio: 695.00");
                 gotoxy(60,4); printf("  Stock: %d",stockIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -468,7 +468,7 @@ else
                 gotoxy(20,2); printf("TEQUILA HERRADURA DIRECTO DEL ALAMBIQUE 750ML");
                 gotoxy(60,3); printf("  Precio: 695.00");
                 gotoxy(60,4); printf("  Stock: %d",stockIV);
-                gotoxy(10,8); printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,8); printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -530,7 +530,7 @@ else
                 gotoxy(20,2); printf("TEQUILA EL CAPRICHO MADURO 750ML");
                 gotoxy(60,2); printf("  Precio: 79.00");
                 gotoxy(60,3);printf("  Stock: %d",stockV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -545,7 +545,7 @@ else
                 gotoxy(20,2); printf("TEQUILA EL CAPRICHO MADURO 750ML");
                 gotoxy(60,2); printf("  Precio: 79.00");
                 gotoxy(60,3);printf("  Stock: %d",stockV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -554,7 +554,7 @@ else
                 }
               break;
               case 2:
-                gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
+                gotoxy(20,2); printf("TEQUILA SAUZA 100 A%cOS AZUL REP 700ML", 165);
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(60,3); printf("  Stock: %d",stockVI);
                 system("cls");
@@ -562,7 +562,7 @@ else
                 stock7();
                 system("cls");
                 gotoxy(60,3); printf("  Stock: %d",stockVI);
-                gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
+                gotoxy(20,2); printf("TEQUILA SAUZA 100 A%cOS AZUL REP 700ML", 165);
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
@@ -578,16 +578,16 @@ else
 
                     if(resp1 == 'S' || resp1 == 's'){
                 system("cls");
-                gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
+                gotoxy(20,2); printf("TEQUILA SAUZA 100 A%cOS AZUL REP 700ML", 165);
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVI);
                 x=stockVI*427;
                 stockVI=stockVI-stockVI;
                 system("cls");
-                gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
+                gotoxy(20,2); printf("TEQUILA SAUZA 100 A%cOS AZUL REP 700ML", 165);
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -599,10 +599,10 @@ else
                 {
                 x=unidad*127;
                 system("cls");
-                gotoxy(20,2); printf("TEQUILA SAUZA 100 AÑOS AZUL REP 700ML");
+                gotoxy(20,2); printf("TEQUILA SAUZA 100 A%cOS AZUL REP 700ML", 165);
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -622,7 +622,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockVII);
                 gotoxy(20,2); printf("TEQUILA 1800 REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 283.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockVII=stockVII-unidad;
@@ -645,7 +645,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 283.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -660,7 +660,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 283.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -680,7 +680,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockVIII);
                 gotoxy(20,2); printf("TEQUILA CABRITO REPOSADO 375ML");
                 gotoxy(60,2); printf("  Precio: 39.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockVIII=stockVIII-unidad;
@@ -703,7 +703,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CABRITO REPOSADO 375ML");
                 gotoxy(60,2); printf("  Precio: 39.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -718,7 +718,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CABRITO REPOSADO 375ML");
                 gotoxy(60,2); printf("  Precio: 39.00");
                 gotoxy(60,3);printf("  Stock: %d",stockVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -738,7 +738,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockIX);
                 gotoxy(20,2); printf("TEQUILA CENTENARIO REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 187.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockIX=stockIX-unidad;
@@ -761,7 +761,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CENTENARIO REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 187.00");
                 gotoxy(60,3);printf("  Stock: %d",stockIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -776,7 +776,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CENTENARIO REPOSADO 700ML");
                 gotoxy(60,2); printf("  Precio: 187.00");
                 gotoxy(60,3);printf("  Stock: %d",stockIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -814,7 +814,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockX);
                 gotoxy(20,2); printf("TEQUILA CAPOTE AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 513.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockX=stockX-unidad;
@@ -837,7 +837,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAPOTE AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 513.00");
                 gotoxy(60,3);printf("  Stock: %d",stockX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -852,7 +852,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAPOTE AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 513.00");
                 gotoxy(60,3);printf("  Stock: %d",stockX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -872,7 +872,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXI);
                 gotoxy(20,2); printf("TEQUILA 1800 RESERVA ANTIGUA(AÑEJO) 700ML");
                 gotoxy(60,2); printf("  Precio: 387.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXI=stockXI-unidad;
@@ -895,7 +895,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 RESERVA ANTIGUA(AÑEJO) 700ML");
                 gotoxy(60,2); printf("  Precio: 387.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -910,7 +910,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 RESERVA ANTIGUA(AÑEJO) 700ML");
                 gotoxy(60,2); printf("  Precio: 387.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -930,7 +930,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXII);
                 gotoxy(20,2); printf("TEQUILA 30-30 AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 203.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXII=stockXII-unidad;
@@ -953,7 +953,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 30-30 AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 203.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXII);;
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -968,7 +968,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 30-30 AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 203.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -987,7 +987,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXIII);
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 499.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXIII=stockXIII-unidad;
@@ -1010,7 +1010,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 499.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1025,7 +1025,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 499.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1045,7 +1045,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXIV);
                 gotoxy(20,2); printf("TEQUILA CAZADORES AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 339.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXIV=stockXIV-unidad;
@@ -1068,7 +1068,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAZADORES AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 339.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1083,7 +1083,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CAZADORES AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 339.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1124,7 +1124,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXV);
                 gotoxy(20,2); printf("TEQUILA 1800 MILENIO EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 2033.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXV=stockXV-unidad;
@@ -1147,7 +1147,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 MILENIO EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 2033.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1162,7 +1162,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 MILENIO EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 2033.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1182,7 +1182,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXVI);
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS EXTRA AÑEJO SIMGLE BARREL 750ML");
                 gotoxy(60,2); printf("  Precio: 3149.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXVI=stockXVI-unidad;
@@ -1205,7 +1205,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS EXTRA AÑEJO SIMGLE BARREL 750ML");
                 gotoxy(60,2); printf("  Precio: 3149.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1220,7 +1220,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 7 LEGUAS EXTRA AÑEJO SIMGLE BARREL 750ML");
                 gotoxy(60,2); printf("  Precio: 3149.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1240,7 +1240,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXVII);
                 gotoxy(20,2); printf("TEQUILA CUERVO RESERVA DE LA FAMILIA 2.5LT");
                 gotoxy(60,2); printf("  Precio: 4490.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXVII=stockXVII-unidad;
@@ -1263,7 +1263,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CUERVO RESERVA DE LA FAMILIA 2.5LT");
                 gotoxy(60,2); printf("  Precio: 4490.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1278,7 +1278,7 @@ else
                 gotoxy(20,2); printf("TEQUILA CUERVO RESERVA DE LA FAMILIA 2.5LT");
                 gotoxy(60,2); printf("  Precio: 4490.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1298,7 +1298,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXVIII);
                 gotoxy(20,2); printf("TEQUILA ALACRAN EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXVIII=stockXVIII-unidad;
@@ -1321,7 +1321,7 @@ else
                 gotoxy(20,2); printf("TEQUILA ALACRAN EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1336,7 +1336,7 @@ else
                 gotoxy(20,2); printf("TEQUILA ALACRAN EXTRA AÑEJO 750ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
                 suma=suma+x;
@@ -1356,7 +1356,7 @@ else
                 gotoxy(60,3); printf("  Stock: %d",stockXIX);
                 gotoxy(20,2); printf("TEQUILA 1800 COLECCION BOSCO SODI 750ML");
                 gotoxy(60,2); printf("  Precio: 29999.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXIX=stockXIX-unidad;
@@ -1379,7 +1379,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 COLECCION BOSCO SODI 750ML");
                 gotoxy(60,2); printf("  Precio: 29999.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                     else
 
@@ -1394,7 +1394,7 @@ else
                 gotoxy(20,2); printf("TEQUILA 1800 COLECCION BOSCO SODI 750ML");
                 gotoxy(60,2); printf("  Precio: 29999.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
 
                 }
 suma=suma+x;
@@ -1448,7 +1448,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXX);
                 gotoxy(20,2); printf("WHISKY ABERFELDY 750ML");
                 gotoxy(60,2); printf("  Precio: 686.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXX=stockXX-unidad;
@@ -1473,7 +1473,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ABERFELDY 750ML");
                 gotoxy(60,2); printf("  Precio: 686.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1488,7 +1488,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ABERFELDY 750ML");
                 gotoxy(60,2); printf("  Precio: 686.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1507,7 +1507,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXI);
                 gotoxy(20,2); printf("WHISKY ARDMORE 750ML");
                 gotoxy(60,2); printf("  Precio: 859.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXI=stockXXI-unidad;
@@ -1532,7 +1532,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ARDMORE 750ML");
                 gotoxy(60,2); printf("  Precio: 859.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1547,7 +1547,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ARDMORE 750ML");
                 gotoxy(60,2); printf("  Precio: 859.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1567,7 +1567,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXII);
                 gotoxy(20,2); printf("WHISKY ARDBEG 10 YEAR OLD MALT 750ML");
                 gotoxy(60,2); printf("  Precio: 1000.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXII=stockXXII-unidad;
@@ -1592,7 +1592,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ARDBEG 10 YEAR OLD MALT 750ML");
                 gotoxy(60,2); printf("  Precio: 1000.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1607,7 +1607,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ARDBEG 10 YEAR OLD MALT 750ML");
                 gotoxy(60,2); printf("  Precio: 1000.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1626,7 +1626,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXIII);
                 gotoxy(20,2); printf("WHISKY BALVENIE 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 966.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXIII=stockXXIII-unidad;
@@ -1651,7 +1651,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALVENIE 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 966.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1666,7 +1666,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALVENIE 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 966.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1685,7 +1685,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXIV);
                 gotoxy(20,2); printf("WHISKY BALVENIE 17 DOUBLEWOOD 750ML");
                 gotoxy(60,2); printf("  Precio: 3179.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXIV=stockXXIV-unidad;
@@ -1710,7 +1710,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALVENIE 17 DOUBLEWOOD 750ML");
                 gotoxy(60,2); printf("  Precio: 3179.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1725,7 +1725,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALVENIE 17 DOUBLEWOOD 750ML");
                 gotoxy(60,2); printf("  Precio: 3179.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1764,7 +1764,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXV);
                 gotoxy(20,2); printf("WHISKY CHARLES NUGENT 750ML");
                 gotoxy(60,2); printf("  Precio: 434.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXV=stockXXV-unidad;
@@ -1789,7 +1789,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY CHARLES NUGENT 750ML");
                 gotoxy(60,2); printf("  Precio: 434.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1805,7 +1805,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY CHARLES NUGENT 750ML");
                 gotoxy(60,2); printf("  Precio: 434.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 {
                     getchar();
@@ -1823,7 +1823,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXVI);
                 gotoxy(20,2); printf("WHISKY BALLENTINES 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 2509.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXVI=stockXXVI-unidad;
@@ -1848,7 +1848,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 2509.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1863,7 +1863,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 12 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 2509.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1882,7 +1882,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXVII);
                 gotoxy(20,2); printf("WHISKY BALLENTINES 21 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 5832.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXVII=stockXXVII-unidad;
@@ -1907,7 +1907,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 21 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 5832.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1923,7 +1923,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 21 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 5832.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -1942,7 +1942,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXVIII);
                 gotoxy(20,2); printf("WHISKY BALLENTINES 30 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXVIII=stockXXVIII-unidad;
@@ -1967,7 +1967,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 30 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -1982,7 +1982,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY BALLENTINES 30 AÑOS 700ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2001,7 +2001,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXIX);
                 gotoxy(20,2); printf("WHISKY WALKER ODYSSEY 750ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXIX=stockXXIX-unidad;
@@ -2026,7 +2026,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WALKER ODYSSEY 750ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2042,7 +2042,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WALKER ODYSSEY 750ML");
                 gotoxy(60,2); printf("  Precio: 17134.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2081,7 +2081,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXX);
                 gotoxy(20,2); printf("WHISKY WOODFORD RESERVA 750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXX=stockXXX-unidad;
@@ -2106,7 +2106,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WOODFORD RESERVA 750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2121,7 +2121,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WOODFORD RESERVA 750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2140,7 +2140,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXI);
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 1LT");
                 gotoxy(60,2); printf("  Precio: 193.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXI=stockXXXI-unidad;
@@ -2165,7 +2165,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 1LT");
                 gotoxy(60,2); printf("  Precio: 193.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2180,7 +2180,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 1LT");
                 gotoxy(60,2); printf("  Precio: 193.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2199,7 +2199,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXII);
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 750ML");
                 gotoxy(60,2); printf("  Precio: 160.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXII=stockXXXII-unidad;
@@ -2224,7 +2224,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 750ML");
                 gotoxy(60,2); printf("  Precio: 160.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2239,7 +2239,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY EARLY TIMES 750ML");
                 gotoxy(60,2); printf("  Precio: 160.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2258,7 +2258,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXIII);
                 gotoxy(20,2); printf("WHISKY JIM BEAM NEGRO 8 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 374.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXIII=stockXXXIII-unidad;
@@ -2283,7 +2283,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JIM BEAM NEGRO 8 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 374.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2298,7 +2298,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JIM BEAM NEGRO 8 AÑOS 750ML");
                 gotoxy(60,2); printf("  Precio: 374.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2317,7 +2317,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXIV);
                 gotoxy(20,2); printf("WHISKY WID TURKEY 700ML");
                 gotoxy(60,2); printf("  Precio: 315.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXIV=stockXXXIV-unidad;
@@ -2342,7 +2342,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WID TURKEY 700ML");
                 gotoxy(60,2); printf("  Precio: 315.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2357,7 +2357,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY WID TURKEY 700ML");
                 gotoxy(60,2); printf("  Precio: 315.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2396,7 +2396,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXV);
                 gotoxy(20,2); printf("WHISKY ENTLEMAN JACKS 750ML");
                 gotoxy(60,2); printf("  Precio: 615.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXV=stockXXXV-unidad;
@@ -2421,7 +2421,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ENTLEMAN JACKS 750ML");
                 gotoxy(60,2); printf("  Precio: 615.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2436,7 +2436,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY ENTLEMAN JACKS 750ML");
                 gotoxy(60,2); printf("  Precio: 615.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2455,7 +2455,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXVI);
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXVI=stockXXXVI-unidad;
@@ -2480,7 +2480,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2495,7 +2495,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1750ML");
                 gotoxy(60,2); printf("  Precio: 715.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2514,7 +2514,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXVII);
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1LT");
                 gotoxy(60,2); printf("  Precio: 450.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXVII=stockXXXVII-unidad;
@@ -2539,7 +2539,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1LT");
                 gotoxy(60,2); printf("  Precio: 450.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2554,7 +2554,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 1LT");
                 gotoxy(60,2); printf("  Precio: 450.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2573,7 +2573,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXVIII);
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S HONEY 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXVIII=stockXXXVIII-unidad;
@@ -2598,7 +2598,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S HONEY 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2613,7 +2613,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S HONEY 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2632,7 +2632,7 @@ int whisky(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXIX);
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXIX=stockXXXIX-unidad;
@@ -2657,7 +2657,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2672,7 +2672,7 @@ int whisky(){
                 gotoxy(20,2); printf("WHISKY JACK DANIEL'S 700ML");
                 gotoxy(60,2); printf("  Precio: 324.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2718,7 +2718,7 @@ int cognac(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXX);
                 gotoxy(20,2); printf("COGNAC COURVOISIER 12A 750ML");
                 gotoxy(60,2); printf("  Precio: 769.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXX=stockXXXX-unidad;
@@ -2743,7 +2743,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC COURVOISIER 12A 750ML");
                 gotoxy(60,2); printf("  Precio: 769.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2758,7 +2758,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC COURVOISIER 12A 750ML");
                 gotoxy(60,2); printf("  Precio: 769.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2777,7 +2777,7 @@ int cognac(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXI);
                 gotoxy(20,2); printf("COGNAC REMYM X O GOLD EDICION LIMITADA 700ML");
                 gotoxy(60,2); printf("  Precio: 3354.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXI=stockXXXXI-unidad;
@@ -2802,7 +2802,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC REMYM X O GOLD EDICION LIMITADA 700ML");
                 gotoxy(60,2); printf("  Precio: 3354.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2817,7 +2817,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC REMYM X O GOLD EDICION LIMITADA 700ML");
                 gotoxy(60,2); printf("  Precio: 3354.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2836,7 +2836,7 @@ int cognac(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXII);
                 gotoxy(20,2); printf("COGNAC BISCUIT X O 700ML");
                 gotoxy(60,2); printf("  Precio: 2027.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXII=stockXXXXII-unidad;
@@ -2861,7 +2861,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC BISCUIT X O 700ML");
                 gotoxy(60,2); printf("  Precio: 2027.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2876,7 +2876,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC BISCUIT X O 700ML");
                 gotoxy(60,2); printf("  Precio: 2027.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2895,7 +2895,7 @@ int cognac(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXIII);
                 gotoxy(20,2); printf("COGNAC BISCUIT PASSION 750ML");
                 gotoxy(60,2); printf("  Precio: 750.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXIII=stockXXXXIII-unidad;
@@ -2920,7 +2920,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC BISCUIT PASSION 750ML");
                 gotoxy(60,2); printf("  Precio: 750.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2935,7 +2935,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC BISCUIT PASSION 750ML");
                 gotoxy(60,2); printf("  Precio: 750.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -2954,7 +2954,7 @@ int cognac(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXIV);
                 gotoxy(20,2); printf("COGNAC CAMUS EXTRA ELEGANCE 700ML");
                 gotoxy(60,2); printf("  Precio: 5623.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXIV=stockXXXXIV-unidad;
@@ -2979,7 +2979,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC CAMUS EXTRA ELEGANCE 700ML");
                 gotoxy(60,2); printf("  Precio: 5623.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -2994,7 +2994,7 @@ int cognac(){
                 gotoxy(20,2); printf("COGNAC CAMUS EXTRA ELEGANCE 700ML");
                 gotoxy(60,2); printf("  Precio: 5623.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3039,7 +3039,7 @@ int vodka(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXV);
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 1LT");
                 gotoxy(60,2); printf("  Precio: 442.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXV=stockXXXXV-unidad;
@@ -3064,7 +3064,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 1LT");
                 gotoxy(60,2); printf("  Precio: 442.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3079,7 +3079,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 1LT");
                 gotoxy(60,2); printf("  Precio: 442.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3098,7 +3098,7 @@ int vodka(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXVI);
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 750ML");
                 gotoxy(60,2); printf("  Precio: 346.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXVI=stockXXXXVI-unidad;
@@ -3123,7 +3123,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 750ML");
                 gotoxy(60,2); printf("  Precio: 346.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3138,7 +3138,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT 100 750ML");
                 gotoxy(60,2); printf("  Precio: 346.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3157,7 +3157,7 @@ int vodka(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXVII);
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 1LT");
                 gotoxy(60,2); printf("  Precio: 253.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXVII=stockXXXXVII-unidad;
@@ -3182,7 +3182,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 1LT");
                 gotoxy(60,2); printf("  Precio: 253.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3197,7 +3197,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 1LT");
                 gotoxy(60,2); printf("  Precio: 253.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3216,7 +3216,7 @@ int vodka(){
                 gotoxy(60,3); printf("  Stock: %d",stockXXXXVIII);
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 750ML");
                 gotoxy(60,2); printf("  Precio: 225.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXXXXVIII=stockXXXXVIII-unidad;
@@ -3241,7 +3241,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 750ML");
                 gotoxy(60,2); printf("  Precio: 225.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3256,7 +3256,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ABSOLUT AZUL 750ML");
                 gotoxy(60,2); printf("  Precio: 225.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3275,7 +3275,7 @@ int vodka(){
                 gotoxy(60,3); printf("  Stock: %d",stockXLIX);
                 gotoxy(20,2); printf("VODKA ELYX NUEVA EDICION 4.5LT");
                 gotoxy(60,2); printf("  Precio: 4289.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXLIX=stockXLIX-unidad;
@@ -3300,7 +3300,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ELYX NUEVA EDICION 4.5LT");
                 gotoxy(60,2); printf("  Precio: 4289.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXLIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3315,7 +3315,7 @@ int vodka(){
                 gotoxy(20,2); printf("VODKA ELYX NUEVA EDICION 4.5LT");
                 gotoxy(60,2); printf("  Precio: 4289.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXLIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3358,7 +3358,7 @@ int mezcal(){
                 gotoxy(60,3); printf("  Stock: %d",stockL);
                 gotoxy(20,2); printf("JARAL DE BERNU 750ML");
                 gotoxy(60,2); printf("  Precio: 249.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockL=stockL-unidad;
@@ -3383,7 +3383,7 @@ int mezcal(){
                 gotoxy(20,2); printf("JARAL DE BERNU 750ML");
                 gotoxy(60,2); printf("  Precio: 249.00");
                 gotoxy(60,3);printf("  Stock: %d",stockL);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3398,7 +3398,7 @@ int mezcal(){
                 gotoxy(20,2); printf("JARAL DE BERNU 750ML");
                 gotoxy(60,2); printf("  Precio: 249.00");
                 gotoxy(60,3);printf("  Stock: %d",stockL);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3417,7 +3417,7 @@ int mezcal(){
                 gotoxy(60,3); printf("  Stock: %d",stockLI);
                 gotoxy(20,2); printf("33 REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 3250.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLI=stockLI-unidad;
@@ -3442,7 +3442,7 @@ int mezcal(){
                 gotoxy(20,2); printf("33 REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 3250.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3457,7 +3457,7 @@ int mezcal(){
                 gotoxy(20,2); printf("33 REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 3250.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3476,7 +3476,7 @@ int mezcal(){
                 gotoxy(60,3); printf("  Stock: %d",stockLII);
                 gotoxy(20,2); printf("400 CONEJOS REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 441.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLII=stockLII-unidad;
@@ -3501,7 +3501,7 @@ int mezcal(){
                 gotoxy(20,2); printf("400 CONEJOS REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 441.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3516,7 +3516,7 @@ int mezcal(){
                 gotoxy(20,2); printf("400 CONEJOS REPOSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 441.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3535,7 +3535,7 @@ int mezcal(){
                 gotoxy(60,3); printf("  Stock: %d",stockLIII);
                 gotoxy(20,2); printf("AGAVE CRIOLLO NAYAA 750ML");
                 gotoxy(60,2); printf("  Precio: 1539.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLIII=stockLIII-unidad;
@@ -3560,7 +3560,7 @@ int mezcal(){
                 gotoxy(20,2); printf("AGAVE CRIOLLO NAYAA 750ML");
                 gotoxy(60,2); printf("  Precio: 1539.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3575,7 +3575,7 @@ int mezcal(){
                 gotoxy(20,2); printf("AGAVE CRIOLLO NAYAA 750ML");
                 gotoxy(60,2); printf("  Precio: 1539.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3594,7 +3594,7 @@ int mezcal(){
                 gotoxy(60,3); printf("  Stock: %d",stockLIV);
                 gotoxy(20,2); printf("AGUA BENDITA JOVEN 750ML");
                 gotoxy(60,2); printf("  Precio: 395.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLIV=stockLIV-unidad;
@@ -3619,7 +3619,7 @@ int mezcal(){
                 gotoxy(20,2); printf("AGUA BENDITA JOVEN 750ML");
                 gotoxy(60,2); printf("  Precio: 395.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3634,7 +3634,7 @@ int mezcal(){
                 gotoxy(20,2); printf("AGUA BENDITA JOVEN 750ML");
                 gotoxy(60,2); printf("  Precio: 395.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3678,7 +3678,7 @@ int ron(){
                 gotoxy(60,3); printf("  Stock: %d",stockLV);
                 gotoxy(20,2); printf("RON ANGOSTURA BITTER NARANJA 100ML");
                 gotoxy(60,2); printf("  Precio: 279.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLV=stockLV-unidad;
@@ -3703,7 +3703,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ANGOSTURA BITTER NARANJA 100ML");
                 gotoxy(60,2); printf("  Precio: 279.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3718,7 +3718,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ANGOSTURA BITTER NARANJA 100ML");
                 gotoxy(60,2); printf("  Precio: 279.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3737,7 +3737,7 @@ int ron(){
                 gotoxy(60,3); printf("  Stock: %d",stockLVI);
                 gotoxy(20,2); printf("RON 10 CANE RUM 700ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLVI=stockLVI-unidad;
@@ -3762,7 +3762,7 @@ int ron(){
                 gotoxy(20,2); printf("RON 10 CANE RUM 700ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3777,7 +3777,7 @@ int ron(){
                 gotoxy(20,2); printf("RON 10 CANE RUM 700ML");
                 gotoxy(60,2); printf("  Precio: 650.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3796,7 +3796,7 @@ int ron(){
                 gotoxy(60,3); printf("  Stock: %d",stockLVII);
                 gotoxy(20,2); printf("RON ABUELO AÑEJO 1LT");
                 gotoxy(60,2); printf("  Precio: 199.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLVII=stockLVII-unidad;
@@ -3821,7 +3821,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO AÑEJO 1LT");
                 gotoxy(60,2); printf("  Precio: 199.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3836,7 +3836,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO AÑEJO 1LT");
                 gotoxy(60,2); printf("  Precio: 199.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3855,7 +3855,7 @@ int ron(){
                 gotoxy(60,3); printf("  Stock: %d",stockLVIII);
                 gotoxy(20,2); printf("RON ABUELO CENTURIA 750ML");
                 gotoxy(60,2); printf("  Precio: 2389.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLVIII=stockLVIII-unidad;
@@ -3880,7 +3880,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO CENTURIA 750ML");
                 gotoxy(60,2); printf("  Precio: 2389.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3895,7 +3895,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO CENTURIA 750ML");
                 gotoxy(60,2); printf("  Precio: 2389.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3914,7 +3914,7 @@ int ron(){
                 gotoxy(60,3); printf("  Stock: %d",stockLIX);
                 gotoxy(20,2); printf("RON ABUELO XV NAPOLEON 750ML");
                 gotoxy(60,2); printf("  Precio: 1690.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLIX=stockLIX-unidad;
@@ -3939,7 +3939,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO XV NAPOLEON 750ML");
                 gotoxy(60,2); printf("  Precio: 1690.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -3954,7 +3954,7 @@ int ron(){
                 gotoxy(20,2); printf("RON ABUELO XV NAPOLEON 750ML");
                 gotoxy(60,2); printf("  Precio: 1690.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -3998,7 +3998,7 @@ int ginebra(){
                 gotoxy(60,3); printf("  Stock: %d",stockLX);
                 gotoxy(20,2); printf("GINEBRA ELEPHANT GIN 500ML");
                 gotoxy(60,2); printf("  Precio: 998.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLX=stockLX-unidad;
@@ -4023,7 +4023,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA ELEPHANT GIN 500ML");
                 gotoxy(60,2); printf("  Precio: 998.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4038,7 +4038,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA ELEPHANT GIN 500ML");
                 gotoxy(60,2); printf("  Precio: 998.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4057,7 +4057,7 @@ int ginebra(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXI);
                 gotoxy(20,2); printf("GINEBRA WEMBLEY 700ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXI=stockLXI-unidad;
@@ -4082,7 +4082,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA WEMBLEY 700ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4097,7 +4097,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA WEMBLEY 700ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4116,7 +4116,7 @@ int ginebra(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXII);
                 gotoxy(20,2); printf("GINEBRA BEEFEATER 24 700ML");
                 gotoxy(60,2); printf("  Precio: 516.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXII=stockLXII-unidad;
@@ -4141,7 +4141,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA BEEFEATER 24 700ML");
                 gotoxy(60,2); printf("  Precio: 516.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4156,7 +4156,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA BEEFEATER 24 700ML");
                 gotoxy(60,2); printf("  Precio: 516.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4175,7 +4175,7 @@ int ginebra(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXIII);
                 gotoxy(20,2); printf("GINEBRA BULLDOG 750ML");
                 gotoxy(60,2); printf("  Precio: 449.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXIII=stockLXIII-unidad;
@@ -4200,7 +4200,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA BULLDOG 750ML");
                 gotoxy(60,2); printf("  Precio: 449.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4215,7 +4215,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA BULLDOG 750ML");
                 gotoxy(60,2); printf("  Precio: 449.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4234,7 +4234,7 @@ int ginebra(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXIV);
                 gotoxy(20,2); printf("GINEBRA HENDNEKS 750ML");
                 gotoxy(60,2); printf("  Precio: 629.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXIV=stockLXIV-unidad;
@@ -4259,7 +4259,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA HENDNEKS 750ML");
                 gotoxy(60,2); printf("  Precio: 629.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4274,7 +4274,7 @@ int ginebra(){
                 gotoxy(20,2); printf("GINEBRA HENDNEKS 750ML");
                 gotoxy(60,2); printf("  Precio: 629.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4318,7 +4318,7 @@ int brandy(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXV);
                 gotoxy(20,2); printf("BRANDY CARDENAL DE MENDOZA 750ML");
                 gotoxy(60,2); printf("  Precio: 18925.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXV=stockLXV-unidad;
@@ -4343,7 +4343,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY CARDENAL DE MENDOZA 750ML");
                 gotoxy(60,2); printf("  Precio: 18925.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4358,7 +4358,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY CARDENAL DE MENDOZA 750ML");
                 gotoxy(60,2); printf("  Precio: 18925.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4377,7 +4377,7 @@ int brandy(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXVI);
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO 3LT");
                 gotoxy(60,2); printf("  Precio: 653.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXVI=stockLXVI-unidad;
@@ -4402,7 +4402,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO 3LT");
                 gotoxy(60,2); printf("  Precio: 653.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4417,7 +4417,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO 3LT");
                 gotoxy(60,2); printf("  Precio: 653.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4436,7 +4436,7 @@ int brandy(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXVII);
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO ANIVERSARIO 750ML");
                 gotoxy(60,2); printf("  Precio: 4661.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXVII=stockLXVII-unidad;
@@ -4461,7 +4461,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO ANIVERSARIO 750ML");
                 gotoxy(60,2); printf("  Precio: 4661.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4476,7 +4476,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY AZTECA DE ORO ANIVERSARIO 750ML");
                 gotoxy(60,2); printf("  Precio: 4661.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4495,7 +4495,7 @@ int brandy(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXVIII);
                 gotoxy(20,2); printf("BRANDY TORRES 10 700ML");
                 gotoxy(60,2); printf("  Precio: 239.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXVIII=stockLXVIII-unidad;
@@ -4520,7 +4520,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY TORRES 10 700ML");
                 gotoxy(60,2); printf("  Precio: 239.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4535,7 +4535,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY TORRES 10 700ML");
                 gotoxy(60,2); printf("  Precio: 239.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4554,7 +4554,7 @@ int brandy(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXIX);
                 gotoxy(20,2); printf("BRANDY TORRES 20 700ML");
                 gotoxy(60,2); printf("  Precio: 794.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXIX=stockLXIX-unidad;
@@ -4579,7 +4579,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY TORRES 20 700ML");
                 gotoxy(60,2); printf("  Precio: 794.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4594,7 +4594,7 @@ int brandy(){
                 gotoxy(20,2); printf("BRANDY TORRES 20 700ML");
                 gotoxy(60,2); printf("  Precio: 794.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4638,7 +4638,7 @@ int jerez(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXX);
                 gotoxy(20,2); printf("JEREZ DRY SACK MEDIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 219.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXX=stockLXX-unidad;
@@ -4663,7 +4663,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ DRY SACK MEDIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 219.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4678,7 +4678,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ DRY SACK MEDIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 219.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4697,7 +4697,7 @@ int jerez(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXI);
                 gotoxy(20,2); printf("JEREZ FINO CLASICO FDO 750ML");
                 gotoxy(60,2); printf("  Precio: 255.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXI=stockLXXI-unidad;
@@ -4722,7 +4722,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ FINO CLASICO FDO 750ML");
                 gotoxy(60,2); printf("  Precio: 255.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4737,7 +4737,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ FINO CLASICO FDO 750ML");
                 gotoxy(60,2); printf("  Precio: 255.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4756,7 +4756,7 @@ int jerez(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXII);
                 gotoxy(20,2); printf("JEREZ FINO LA INA 750ML");
                 gotoxy(60,2); printf("  Precio: 329.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXII=stockLXXII-unidad;
@@ -4781,7 +4781,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ FINO LA INA 750ML");
                 gotoxy(60,2); printf("  Precio: 329.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4796,7 +4796,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ FINO LA INA 750ML");
                 gotoxy(60,2); printf("  Precio: 329.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4815,7 +4815,7 @@ int jerez(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXIII);
                 gotoxy(20,2); printf("JEREZ MOSCATEL AMBROSIA 750ML");
                 gotoxy(60,2); printf("  Precio: 645.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXIII=stockLXXIII-unidad;
@@ -4840,7 +4840,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ MOSCATEL AMBROSIA 750ML");
                 gotoxy(60,2); printf("  Precio: 645.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4855,7 +4855,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ MOSCATEL AMBROSIA 750ML");
                 gotoxy(60,2); printf("  Precio: 645.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4874,7 +4874,7 @@ int jerez(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXIV);
                 gotoxy(20,2); printf("JEREZ PEDRO XIMENES CARDENAL 250ML");
                 gotoxy(60,2); printf("  Precio: 518.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXIV=stockLXXIV-unidad;
@@ -4899,7 +4899,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ PEDRO XIMENES CARDENAL 250ML");
                 gotoxy(60,2); printf("  Precio: 518.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4914,7 +4914,7 @@ int jerez(){
                 gotoxy(20,2); printf("JEREZ PEDRO XIMENES CARDENAL 250ML");
                 gotoxy(60,2); printf("  Precio: 518.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -4958,7 +4958,7 @@ int champagne(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXV);
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 740.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXV=stockLXXV-unidad;
@@ -4983,7 +4983,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 740.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -4998,7 +4998,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 740.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5017,7 +5017,7 @@ int champagne(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXVI);
                 gotoxy(20,2); printf("CHAMPAGNE RUINART BRUT ROSE COFFRED 750ML");
                 gotoxy(60,2); printf("  Precio: 1286.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXVI=stockLXXVI-unidad;
@@ -5042,7 +5042,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE RUINART BRUT ROSE COFFRED 750ML");
                 gotoxy(60,2); printf("  Precio: 1286.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5057,7 +5057,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE RUINART BRUT ROSE COFFRED 750ML");
                 gotoxy(60,2); printf("  Precio: 1286.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5076,7 +5076,7 @@ int champagne(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXVII);
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER LA GRANDE ANNEE 750ML");
                 gotoxy(60,2); printf("  Precio: 2996.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXVII=stockLXXVII-unidad;
@@ -5101,7 +5101,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER LA GRANDE ANNEE 750ML");
                 gotoxy(60,2); printf("  Precio: 2996.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5116,7 +5116,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER LA GRANDE ANNEE 750ML");
                 gotoxy(60,2); printf("  Precio: 2996.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5135,7 +5135,7 @@ int champagne(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXVIII);
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER ROSE 750ML");
                 gotoxy(60,2); printf("  Precio: 1899.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXVIII=stockLXXVIII-unidad;
@@ -5160,7 +5160,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER ROSE 750ML");
                 gotoxy(60,2); printf("  Precio: 1899.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5175,7 +5175,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE BOLLINGER ROSE 750ML");
                 gotoxy(60,2); printf("  Precio: 1899.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5194,7 +5194,7 @@ int champagne(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXIX);
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 11500.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXIX=stockLXXIX-unidad;
@@ -5219,7 +5219,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 11500.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5234,7 +5234,7 @@ int champagne(){
                 gotoxy(20,2); printf("CHAMPAGNE POMERY BRUT ROYAL 750ML");
                 gotoxy(60,2); printf("  Precio: 11500.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5278,7 +5278,7 @@ int licor(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXX);
                 gotoxy(20,2); printf("ANIS ASTRORIANA 1LT");
                 gotoxy(60,2); printf("  Precio: 299.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXX=stockLXXX-unidad;
@@ -5303,7 +5303,7 @@ int licor(){
                 gotoxy(20,2); printf("ANIS ASTRORIANA 1LT");
                 gotoxy(60,2); printf("  Precio: 299.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5318,7 +5318,7 @@ int licor(){
                 gotoxy(20,2); printf("ANIS ASTRORIANA 1LT");
                 gotoxy(60,2); printf("  Precio: 299.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5337,7 +5337,7 @@ int licor(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXI);
                 gotoxy(20,2); printf("ANIS DE CAZALLA 1LT");
                 gotoxy(60,2); printf("  Precio: 462.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXI=stockLXXXI-unidad;
@@ -5362,7 +5362,7 @@ int licor(){
                 gotoxy(20,2); printf("ANIS DE CAZALLA 1LT");
                 gotoxy(60,2); printf("  Precio: 462.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5377,7 +5377,7 @@ int licor(){
                 gotoxy(20,2); printf("ANIS DE CAZALLA 1LT");
                 gotoxy(60,2); printf("  Precio: 462.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5396,7 +5396,7 @@ int licor(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXII);
                 gotoxy(20,2); printf("JARABE GRANADINA COLLADO 1LT");
                 gotoxy(60,2); printf("  Precio: 36.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXII=stockLXXXII-unidad;
@@ -5421,7 +5421,7 @@ int licor(){
                 gotoxy(20,2); printf("JARABE GRANADINA COLLADO 1LT");
                 gotoxy(60,2); printf("  Precio: 36.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5436,7 +5436,7 @@ int licor(){
                 gotoxy(20,2); printf("JARABE GRANADINA COLLADO 1LT");
                 gotoxy(60,2); printf("  Precio: 36.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5455,7 +5455,7 @@ int licor(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXIII);
                 gotoxy(20,2); printf("KALANI MIYOLOGY 750ML");
                 gotoxy(60,2); printf("  Precio: 250.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXIII=stockLXXXIII-unidad;
@@ -5480,7 +5480,7 @@ int licor(){
                 gotoxy(20,2); printf("KALANI MIYOLOGY 750ML");
                 gotoxy(60,2); printf("  Precio: 250.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5495,7 +5495,7 @@ int licor(){
                 gotoxy(20,2); printf("KALANI MIYOLOGY 750ML");
                 gotoxy(60,2); printf("  Precio: 250.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5514,7 +5514,7 @@ int licor(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXIV);
                 gotoxy(20,2); printf("ORUJO TERRAS DO OGARRON HIERBAS 700ML");
                 gotoxy(60,2); printf("  Precio: 169.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXIV=stockLXXXIV-unidad;
@@ -5539,7 +5539,7 @@ int licor(){
                 gotoxy(20,2); printf("ORUJO TERRAS DO OGARRON HIERBAS 700ML");
                 gotoxy(60,2); printf("  Precio: 169.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5554,7 +5554,7 @@ int licor(){
                 gotoxy(20,2); printf("ORUJO TERRAS DO OGARRON HIERBAS 700ML");
                 gotoxy(60,2); printf("  Precio: 169.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5583,7 +5583,7 @@ int vino(){
           switch(tipo){
           case 1:
             printf("VINO TINTO");
-            printf("\t\n1.- VINO TINTO 93&60 RVA VIÑA 750ML");
+            printf("\t\n1.- VINO TINTO 93&60 RVA VI%cA 750ML", 165);
             printf("\t\n2.- VINO TINTO 3V CASA MADERO 750ML");
             printf("\t\n3.- VINO TINTO AKAXI 750ML");
             printf("\t\n4.- VINO TINTO ALA ROTA 750ML");
@@ -5594,7 +5594,7 @@ int vino(){
             system("cls");
             switch(tipo1){
               case 1:
-                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VIÑA 750ML");
+                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VI%cA 750ML", 165);
                 gotoxy(60,2); printf("  Precio: 659.00");
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXV);
                 system("cls");
@@ -5602,9 +5602,9 @@ int vino(){
                 stock86();
                 system("cls");
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXV);
-                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VIÑA 750ML");
+                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VI%cA 750ML", 165);
                 gotoxy(60,2); printf("  Precio: 659.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXV=stockLXXXV-unidad;
@@ -5619,17 +5619,17 @@ int vino(){
                     if(resp1 == 'S' || resp1 == 's'){
 
                 system("cls");
-                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VIÑA 750ML");
+                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VI%cA 750ML", 1654);
                 gotoxy(60,2); printf("  Precio: 659.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXV);
                 x=stockLXXXV*282;
 
                 stockLXXXV=stockLXXXV-stockLXXXV;
                 system("cls");
-                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VIÑA 750ML");
+                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VI%cA 750ML", 165);
                 gotoxy(60,2); printf("  Precio: 659.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5641,10 +5641,10 @@ int vino(){
                 {
                 x=unidad*659;
                 system("cls");
-                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VIÑA 750ML");
+                gotoxy(20,2); printf("VINO TINTO 93&60 RVA VI%cA 750ML" , 165);
                 gotoxy(60,2); printf("  Precio: 659.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5663,7 +5663,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXVI);
                 gotoxy(20,2); printf("VINO TINTO 3V CASA MADERO 750ML");
                 gotoxy(60,2); printf("  Precio: 296.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXVI=stockLXXXVI-unidad;
@@ -5688,7 +5688,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO 3V CASA MADERO 750ML");
                 gotoxy(60,2); printf("  Precio: 296.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5703,7 +5703,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO 3V CASA MADERO 750ML");
                 gotoxy(60,2); printf("  Precio: 296.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5722,7 +5722,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXVII);
                 gotoxy(20,2); printf("VINO TINTO AKAXI 750ML");
                 gotoxy(60,2); printf("  Precio: 161.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXVII=stockLXXXVII-unidad;
@@ -5747,7 +5747,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO AKAXI 750ML");
                 gotoxy(60,2); printf("  Precio: 161.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5762,7 +5762,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO AKAXI 750ML");
                 gotoxy(60,2); printf("  Precio: 161.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5781,7 +5781,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXVIII);
                 gotoxy(20,2); printf("VINO TINTO ALA ROTA 750ML");
                 gotoxy(60,2); printf("  Precio: 450.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXVIII=stockLXXXVIII-unidad;
@@ -5806,7 +5806,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO ALA ROTA 750ML");
                 gotoxy(60,2); printf("  Precio: 450.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5821,7 +5821,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO ALA ROTA 750ML");
                 gotoxy(60,2); printf("  Precio: 450.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5840,7 +5840,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockLXXXIX);
                 gotoxy(20,2); printf("VINO TINTO BALCHE ORO PREMIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 3904.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockLXXXIX=stockLXXXIX-unidad;
@@ -5865,7 +5865,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO BALCHE ORO PREMIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 3904.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5880,7 +5880,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO TINTO BALCHE ORO PREMIUM 750ML");
                 gotoxy(60,2); printf("  Precio: 3904.00");
                 gotoxy(60,3);printf("  Stock: %d",stockLXXXIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5919,7 +5919,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXC);
                 gotoxy(20,2); printf("BLANC DE BANCS DON ANGEL 750ML");
                 gotoxy(60,2); printf("  Precio: 74.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXC=stockXC-unidad;
@@ -5944,7 +5944,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANC DE BANCS DON ANGEL 750ML");
                 gotoxy(60,2); printf("  Precio: 74.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXC);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -5959,7 +5959,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANC DE BANCS DON ANGEL 750ML");
                 gotoxy(60,2); printf("  Precio: 74.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXC);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -5978,7 +5978,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCI);
                 gotoxy(20,2); printf("BLANC DE BANCS XA DOMECO 375ML");
                 gotoxy(60,2); printf("  Precio: 49.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCI=stockXCI-unidad;
@@ -6003,7 +6003,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANC DE BANCS XA DOMECO 375ML");
                 gotoxy(60,2); printf("  Precio: 49.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6018,7 +6018,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANC DE BANCS XA DOMECO 375ML");
                 gotoxy(60,2); printf("  Precio: 49.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6037,7 +6037,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCII);
                 gotoxy(20,2); printf("BLANCA MEXICO 750ML");
                 gotoxy(60,2); printf("  Precio: 199.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCII=stockXCII-unidad;
@@ -6062,7 +6062,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANCA MEXICO 750ML");
                 gotoxy(60,2); printf("  Precio: 199.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6077,7 +6077,7 @@ int vino(){
                 gotoxy(20,2); printf("BLANCA MEXICO 750ML");
                 gotoxy(60,2); printf("  Precio: 199.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6096,7 +6096,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCIII);
                 gotoxy(20,2); printf("VINO BLANCO CALEFIA 750ML");
                 gotoxy(60,2); printf("  Precio: 58.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCIII=stockXCIII-unidad;
@@ -6121,7 +6121,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO BLANCO CALEFIA 750ML");
                 gotoxy(60,2); printf("  Precio: 58.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6136,7 +6136,7 @@ int vino(){
                 gotoxy(20,2); printf("VINO BLANCO CALEFIA 750ML");
                 gotoxy(60,2); printf("  Precio: 58.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6155,7 +6155,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCIV);
                 gotoxy(20,2); printf("CAPRICORNIUS EL CIELO 750ML");
                 gotoxy(60,2); printf("  Precio: 348.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCIV=stockXCIV-unidad;
@@ -6180,7 +6180,7 @@ int vino(){
                 gotoxy(20,2); printf("CAPRICORNIUS EL CIELO 750ML");
                 gotoxy(60,2); printf("  Precio: 348.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6195,7 +6195,7 @@ int vino(){
                 gotoxy(20,2); printf("CAPRICORNIUS EL CIELO 750ML");
                 gotoxy(60,2); printf("  Precio: 348.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCIV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6234,7 +6234,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCV);
                 gotoxy(20,2); printf("EMINA ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCV=stockXCV-unidad;
@@ -6259,7 +6259,7 @@ int vino(){
                 gotoxy(20,2); printf("EMINA ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6274,7 +6274,7 @@ int vino(){
                 gotoxy(20,2); printf("EMINA ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCV);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6293,7 +6293,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCVI);
                 gotoxy(20,2); printf("LOS VASCOS ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCVI=stockXCVI-unidad;
@@ -6318,7 +6318,7 @@ int vino(){
                 gotoxy(20,2); printf("LOS VASCOS ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6333,7 +6333,7 @@ int vino(){
                 gotoxy(20,2); printf("LOS VASCOS ROSADO 750ML");
                 gotoxy(60,2); printf("  Precio: 189.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVI);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6352,7 +6352,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCVII);
                 gotoxy(20,2); printf("ALIWEN UNDURRAGA 750ML");
                 gotoxy(60,2); printf("  Precio: 209.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCVII=stockXCVII-unidad;
@@ -6377,7 +6377,7 @@ int vino(){
                 gotoxy(20,2); printf("ALIWEN UNDURRAGA 750ML");
                 gotoxy(60,2); printf("  Precio: 209.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6392,7 +6392,7 @@ int vino(){
                 gotoxy(20,2); printf("ALIWEN UNDURRAGA 750ML");
                 gotoxy(60,2); printf("  Precio: 209.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6411,7 +6411,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCVIII);
                 gotoxy(20,2); printf("CABERNET SAUVIGON ABDED 750ML");
                 gotoxy(60,2); printf("  Precio: 119.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCVIII=stockXCVIII-unidad;
@@ -6436,7 +6436,7 @@ int vino(){
                 gotoxy(20,2); printf("CABERNET SAUVIGON ABDED 750ML");
                 gotoxy(60,2); printf("  Precio: 119.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                     }
                    else
 
@@ -6451,7 +6451,7 @@ int vino(){
                 gotoxy(20,2); printf("CABERNET SAUVIGON ABDED 750ML");
                 gotoxy(60,2); printf("  Precio: 119.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCVIII);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -6470,7 +6470,7 @@ int vino(){
                 gotoxy(60,3); printf("  Stock: %d",stockXCIX);
                 gotoxy(20,2); printf("CANALS NUBIONA 750ML");
                 gotoxy(60,2); printf("  Precio: 127.00");
-                gotoxy(10,5); printf("¿Cuantas unidades desea comprar?: ");
+                gotoxy(10,5); printf("%cCuantas unidades desea comprar?: ", 168);
                 scanf("%d",&unidad);
 
                 stockXCIX=stockXCIX-unidad;
@@ -6495,7 +6495,7 @@ int vino(){
                 gotoxy(20,2); printf("CANALS NUBIONA 750ML ");
                 gotoxy(60,2); printf("  Precio: 127.00 ");
                 gotoxy(60,3);printf("  Stock: %d ",stockXCIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d ",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d ",x);
                     }
                    else
 
@@ -6510,7 +6510,7 @@ int vino(){
                 gotoxy(20,2); printf("CANALS NUBIONA 750ML");
                 gotoxy(60,2); printf("  Precio: 127.00");
                 gotoxy(60,3);printf("  Stock: %d",stockXCIX);
-                gotoxy(10,7);printf("Añadio a su cuenta: $%d",x);
+                gotoxy(10,7);printf("A%cadio a su cuenta: $%d", 164, x);
                 }
                 suma=suma+x;
                 {
@@ -8912,10 +8912,10 @@ int stock100(){
 
        if(stockXCIX <= 0){
           printf("\nEl producto esta agotado ");
-          printf("\n¿Desea surtir el producto?  Si=s No=n ");
+          printf("\n%cDesea surtir el producto?  Si=s No=n ", 168);
           surtirp = getch();
         if( surtirp == 's' || surtirp == 'S'){
-            printf("\n¿Cuantas unidades desea surtir?\n");
+            printf("\n%cCuantas unidades desea surtir?\n", 168);
             scanf("%d",&aum);
             stockXCIX=stockXCIX+aum;
 
